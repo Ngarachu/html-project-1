@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Michael Lawrence">
+    <meta name="description" content=" Contact information for the Little Taco Shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - LTS</title>
+    <link rel="icon" href="img/cataco-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">Little Taco Shop</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Hours</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <figure>
+            <img src="img/tacos-close-up1000x1250.jpg" alt="Little Taco Shop Tacos" title="Tacos ready to be devoured!" width="1000" height="1250">
+            <figcaption class="offscreen">
+                Little Taco Shop Tacos
+            </figcaption>
+        </figure>
+
+    </section>
+    <main class="main">
+        <article class="main__article">
+            <h2>Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d396369.7968760607!2d-94.5757195!3d39.091919000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0f75eafe99997%3A0x558525e66aaa51a2!2sKansas%20City%2C%20MO%2C%20USA!5e0!3m2!1sen!2ske!4v1713284203860!5m2!1sen!2ske" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://solitaires-online.com/tic-tac-toe/#id=415jt2gm6c,no-nav,no-article,no-feedback,no-ads" title="Tic-Tac-Toe game" width="720" height="360"></iframe>
+    
+    
+            <address>
+                555 Taco Temptation Avenue, Suite X <br>
+                Ligma City, KE 6969669-6969
+                <br><br>
+                Phone: <a href="tel:+696969696">696969696</a>
+            </address>
+        </article>
+        <article class="main__article contact">
+        <h2 class="contact__h2">Our Contact Form</h2>
+
+        <form action="https://httpbin.org/get" class="contact__form">
+            <fieldset class="contact__fieldset">
+                <legend class="offscreen">Send Us A Message</legend>
+                <p class="contact__p">
+                    <label class="contact__label" for="name">Name:</label>
+                    <input class="contact__input" type="text" name="name" id="name" placeholder="your name" required>
+                </p>
+                <p class="contact__p">
+                    <label class="contact__label" for="email">Email:</label>
+                    <input class="contact__input" type="email" name="email" id="email" placeholder="your email" required>
+                </p>
+                <p class="contact__p">
+                    <label class="contact__label" for="message">Your Message:</label>
+                    <br>
+                    <textarea class="contact__textarea" name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                </p>
+            </fieldset>
+            <button class="contact__button" type="submit">Send</button>
+            <button class="contact__button" type="reset">Reset</button>
+        </form>
+    </article>
+ 
+    </main>
+   
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+            <span>Little Taco Shop </span>
+            </p>
+    </footer>
+</body>
+
+</html>
